@@ -1,0 +1,32 @@
+﻿body {
+	background-color: #F5F5DC;
+	text-align:center
+}
+
+.head {
+	height:50px;
+	background-color: black;
+	padding-left: 540px;
+	color: white;
+}
+
+.htext {
+	display:inline-block;
+	margin-left: 40px;
+}
+
+h1 {
+	text-align: center;
+	word-spacing: 11px;
+}
+
+.img {
+	margin-left: 100px;
+	float:left;
+}
+
+.para {
+	display:inline-block;
+	padding-top:100px;
+	font-size:20px;
+}
