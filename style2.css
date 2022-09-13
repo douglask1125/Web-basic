@@ -1,3 +1,14 @@
-﻿body
-{
+﻿body {
+}
+
+div {
+	width: 700px
+}
+
+.emp {
+	font-weight: bold
+}
+
+.cit {
+	text-align: right
 }
