@@ -1,0 +1,13 @@
+﻿.ul {
+	list-style: none;
+	width: 200px;
+}
+
+.li {
+	background-color: aqua;
+	text-align: center;
+}
+
+li:not(:last-child) {
+	border-bottom: 1px solid green;
+}

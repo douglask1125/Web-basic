@@ -1,0 +1,24 @@
+﻿
+#container div {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	display: inline-block;
+}
+
+div:nth-child(9n) {
+	background-color: purple;
+}
+
+div:nth-child(9n+1) {
+	background-color: purple;
+}
+
+div:nth-child(9n+5) {
+	background-color: purple;
+}
+
+div {
+	width: 130px;
+	background-color: aqua;
+}
