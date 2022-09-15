@@ -1,0 +1,27 @@
+﻿body {
+	background-color: #262626;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center; }
+	.left {
+		justify-content: flex-start;
+	}
+	.center {
+		justify-content: center;
+	}
+	.right {
+		justify-content: flex-end;
+	}
+
+div.search {
+	display: inline-block;
+	height: 40px;
+	width: 400px;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 40px;
+	background-color: gray;
+}
