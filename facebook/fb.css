@@ -5,21 +5,26 @@
 .flex-container {
 	display: flex;
 	flex-direction: row;
-	align-items: center; }
-	.left {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left {
 		justify-content: flex-start;
-	}
-	.center {
+}
+
+.center {
 		justify-content: center;
-	}
-	.right {
+}
+
+.right {
 		justify-content: flex-end;
-	}
+}
 
 div.search {
 	display: inline-block;
-	height: 40px;
-	width: 400px;
+	height: 50px;
+	width: 200px;
 	overflow: hidden;
 	border: 0px;
 	border-radius: 40px;
