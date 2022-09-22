@@ -1,0 +1,32 @@
+﻿body {
+	max-width: 80%;
+	margin-left: 50px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p::selection {
+	background-color: blue;
+	color: white;
+}
+
+li::marker {
+	content: '◆ ';
+}
+
+.pasta::after {
+	content: '/end';
+}
+
+.pflink {
+	
+}
+
+.pflink::before {
+	content: 'link ';
+}
+
