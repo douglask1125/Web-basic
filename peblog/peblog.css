@@ -19,12 +19,18 @@ li::marker {
 	content: '◆ ';
 }
 
+.pasta::first-letter {
+	font-size: 36px;
+	font-weight: 700;
+	color: green;
+}
+
 .pasta::after {
 	content: '/end';
 }
 
 .pflink {
-	
+	color: green;
 }
 
 .pflink::before {
